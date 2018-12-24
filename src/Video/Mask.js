@@ -1,6 +1,7 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const Mask = ({ isFullScreen, children, handleClick }) => {
+const Mask = ({ isFullScreen, children, showing, handleClick }) => {
   return (
     <div className={isFullScreen ? 'fullscreen video-mask' : 'video-mask'}
          role='button'
@@ -11,6 +12,13 @@ const Mask = ({ isFullScreen, children, handleClick }) => {
       {children}
     </div>
   )
+}
+
+Mask.propTypes = {
+  isFullScreen: PropTypes.bool,
+  children: PropTypes.element,
+  showing: PropTypes.bool,
+  handleClick: PropTypes.func
 }
 
 export default Mask

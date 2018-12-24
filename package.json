@@ -1,6 +1,6 @@
 {
   "name": "react-video-simple",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react component for play video by url, support play, pause, fullscreen ",
   "main": "index.js",
   "repository": "https://github.com/pengqin33/react-video-simple.git",
@@ -33,6 +33,7 @@
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.5.0",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dev-utils": "^6.1.1",
     "react-dom": "^16.6.3",

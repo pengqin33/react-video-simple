@@ -33,6 +33,5 @@ export function detectFullScreen () {
 
 /* 重新加载 */
 export function reload () {
-  console.log('reload!')
   window.location.reload(true)
 }
